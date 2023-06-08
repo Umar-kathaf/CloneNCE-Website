@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Nellai College of Engineering</title>
+    <link rel="stylesheet" href="Clg_Website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/NCE_logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <a href="Login.html" class="hero-btn">Login in</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- ----About Us Content---- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Who We Are</h1>
+                <p>Nellai College of Engineering, Maruthakulam (formerly National College of Engineering) 
+                is an ISO 9001:2015 certified Muslim minority institution approved by AICTE, New Delhi, 
+                and affiliated to Anna University, Chennai. The college was inaugurated by Her Excellency, 
+                the then Governor of Tamil Nadu, Justice Ms. M. FathimaBeevi on 7th September 2000.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/NCE_About.png">
+            </div>
+        </div>
+    </section>
+    <!-- -----Footer----- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Nellai College of Engineering, Maruthakulam (formerly National 
+        College of Engineering) is an ISO 9001:2015 certified Muslim 
+        minority institution approved by AICTE, <br> New Delhi, and affiliated to 
+        Anna University, Chennai. The college was inaugurated by Her 
+        Excellency, <br> the then Governor of Tamil Nadu, Justice Ms. 
+        M. FathimaBeevi on 7th September 2000.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/NCEMaruthakulam/"><i class="fa-brands fa-facebook-f"></i></a> 
+            <i class="fa-brands fa-twitter"></i>
+            <a href="https://www.instagram.com/nellaicollege/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/nellai-college-of-engineering/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> Easy Tuorials </p>
+    </section>
+    <!-- -----Javascript for Toggle Menu----- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
